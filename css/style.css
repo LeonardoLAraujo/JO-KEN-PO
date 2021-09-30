@@ -1,0 +1,63 @@
+/* CSS DO LAYOUT INICIAL */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Andale Mono, monospace;
+    color: #828282;
+    font-size: 18px;
+}
+
+h1{
+    color: #005ca9;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-bottom: 2px rgb(25, 127, 243) solid;
+    font-size: 25px;
+}
+
+.opcao{
+    padding-left: 4%;
+    padding-right: 5%;
+    font-size: 17px;
+    margin-left: 1%;
+    font-weight: bold;
+}
+
+
+/* BOTÃO ATACAR */
+
+#btn_atacar{
+    font-size: 15px;
+    background-color: rgb(25, 127, 243);
+    border-radius: 10px;
+    padding: 0.5% 3% 0.5% 3%;
+    cursor: pointer;
+    margin-top: 3%;
+    color: white;
+    text-decoration: none;
+}
+
+#btn_atacar:hover{
+    background-color: rgb(20, 20, 207);
+}
+
+/* LINK REGRAS */
+#regras{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#regras  a{
+    text-decoration: none;
+    color:rgb(248, 185, 66);
+    font-weight: bold;
+}
+
+#regras a:hover{
+    color: rgb(156, 102, 0);
+}
+
+#conteiner{
+    margin-left: 1%;
+}

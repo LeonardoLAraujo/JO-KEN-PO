@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JO-KEN-PO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="icon" href="img/icon.jpg">
+</head>
+<body>
+    
+    <form name="frm_jogo" >
+
+            <h1>BEM-VINDO AO JO-KEN-PO</h1>
+
+            <div id="conteiner">
+                <p>Preparado para Perde?</p>
+                <p id="regras"><a href="regras.html">Clique Aqui para visualizar as Regras</a></p>
+
+            <h4>Escolha Seu Ataque:   
+                <select class="opcao" name="ataque">
+                    <option value="pedra" id="ataque">Pedra</option>
+                    <option value="papel" id="ataque">Papel</option>
+                    <option value="tesoura" id="ataque">Tesoura</option>
+                </select>
+            </h4>
+        </div>
+        <center><input id="btn_atacar" type="button" value="ATACAR" onclick="atacar_btn()"></center>
+
+    </form>
+</body>
+</html>

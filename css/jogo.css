@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Andale Mono, monospace;
+    color: #828282;
+}
+
+
+h1{
+    color: #005ca9;
+    text-align: center;
+    margin-top: 1%;
+}
+
+/*  IMAGEM DA PEDRA DO USUARIO E DO PC  */
+#imagemUsuario{
+    width: 100%;
+    height: 23vh;
+    border: 1px black solid;
+    padding: 1%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    background-repeat: no-repeat;
+
+}
+
+#imagemPC{
+    width: 100%;
+    height: 23vh;
+    margin-left: 100%;
+    border: 1px black solid;
+    padding: 1%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+/* */
+
+h3{
+    margin-left: 30%;
+}
+
+#conteiner{
+    display: flex;
+    margin-left: 26%;
+    margin-top: 3%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.esquerdo{
+    margin-right: 23%;
+}
+
+#imagem{
+    margin-top: 1%;
+    margin-left: 26%;
+}
+
+h2{
+    margin-top: 2%;
+    text-align: center;
+    color: red;
+}
+
+button{
+
+    font-size: 15px;
+    background-color: rgb(25, 127, 243);
+    border-radius: 10px;
+    padding: 1% 2% 1% 2%;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(20, 20, 207);
+}
+
+#papel{
+    width: 200px;
+    height: 200px;
+}
